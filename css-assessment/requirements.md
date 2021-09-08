@@ -4,9 +4,13 @@ Create a responsive web page that matches the desktop mockup for larger screens 
 Create a deployment on GitHub Pages.
 
 Your submission must include following CSS properties:
+
 (a) Flexbox
+
 (b) Font properties
+
 (c) Spacing, including margin and padding
+
 (d) Border radius and line height
 
 - For screen widths <= 640px, implement mobile version. Above 640px, implement desktop version
