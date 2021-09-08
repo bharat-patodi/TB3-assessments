@@ -1,6 +1,7 @@
 ## Requirements
 
 Create a responsive web page that matches the desktop mockup for larger screens and mobile mockup for smaller screens.
+Create a deployment on GitHub Pages.
 
 Your submission must include following CSS properties:
 (a) Flexbox
