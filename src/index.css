@@ -21,6 +21,7 @@ li {
   /* margin-left: 160px; */
   /* justify-content: space-between; */
   margin-bottom: 30px;
+  margin-left :4%
 }
 .nav-item-1 ul,
 .nav-item-2 ul {
@@ -41,7 +42,9 @@ li {
   position: absolute;
   right: 21%;
 }
-
+#signup{
+    padding:5px 20px;
+}
 .button {
   background-color: #8ee5d1;
   padding: 10px 20px;
@@ -60,7 +63,7 @@ li {
   /* margin: 5%; */
 }
 .intro {
-  /* width: 60%; */
+  /* width: 55%; */
   margin-left: 0;
   text-align: left;
   padding: 10px;
@@ -157,7 +160,7 @@ footer {
       justify-content: center;
   }
   .container{
-      margin: 0;
+      margin: 5px;
   }
   #feature{
       display: none;
@@ -171,5 +174,8 @@ footer {
   #contact{
       width: 100%;
       margin-left: 10px;
+  }
+  #signup{
+      padding:2px 5px;
   }
 }
