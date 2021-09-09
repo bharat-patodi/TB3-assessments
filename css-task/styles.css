@@ -2,7 +2,7 @@ body{
     font-family: Helvetica, sans-serif;
 }
 .nav{
-    
+    margin-top: 50px;
     display: flex;
     margin: 30px;
     padding: 10px;
@@ -10,13 +10,16 @@ body{
 
 
 }
+p{
+    color: #3C3C3C;
+}
 
 a{
     text-decoration: none;
     color: #3C3C3C;
     padding: 10px;
     margin-left: 20px;
-    width: 100px;
+    /* width: 100px; */
 
 
 }
@@ -28,7 +31,8 @@ a{
 }
 #signup{
     background-color: #8EE5D1;
-    border-radius: 40%;
+    border-radius: 10px;
+    text-align: center;
 
 }
 #signup, #login{
@@ -36,15 +40,35 @@ a{
 
 }
 
+
+div{
+    margin: 100px;
+}
+
+/* for intro part */
+
+#intro{
+
+    width: 80%;
+    display:flex;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+#getstarted{
+    width: 100px;
+    height: 30px;
+}
+.introcolumn{
+    display:flex;
+    flex-direction: column;
+}
 img {
     float: right;
     padding-right: 15px;
-    width: 150px;
+    width: 200px;
+    height: 200px;
   }
-  div {
-    padding: 15px;
-    
-  }
+
   .clearfix::after {
     content: "";
     clear: both;
@@ -55,10 +79,12 @@ img {
 /*for book a demo div*/
 
 .form{
-    margin: 100px;
+    margin: auto;
+    padding: 50px;
     text-align: center;
     background-color: #F4F7FA;
     width: 50%;
+    
 }
 
 button{
@@ -98,4 +124,15 @@ button{
 
   .sectionnumber {
       color:#8EE5D1;
+  }
+
+
+  /*for footer*/
+
+  footer{
+      display: flex;
+  }
+
+  .footercol{
+
   }
