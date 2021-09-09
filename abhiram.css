@@ -1,0 +1,310 @@
+body,
+html {
+  font-family: "Helvetica";
+  width: 100vw;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.desktoplinks {
+  display: none;
+}
+
+.brandname {
+  margin-left: 2rem;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.links {
+  font-size: 1rem;
+  color: #3c3c3c;
+  opacity: 0.75;
+}
+
+button {
+  background-color: #8ee5d1;
+  border-radius: 2rem;
+  color: #3c3c3c;
+  font-weight: bold;
+  border-color: transparent;
+  padding: 1rem;
+}
+
+.section {
+  margin-top: 3rem;
+  text-align: center;
+  margin-left: 2rem;
+}
+
+h2 {
+  font-size: 2.3rem;
+}
+
+p {
+  font-size: 1rem;
+  color: #3c3c3c;
+  opacity: 0.75;
+}
+
+.getstartedbtn {
+  font-size: 2.3rem;
+}
+
+img {
+  margin-top: 2.5rem;
+  width: 100vw;
+}
+
+.sectiongrey {
+  background-color: #f4f7fa;
+  margin-top: 3.5rem;
+  width: 100%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+input {
+  padding: 1.15rem;
+  border-radius: 0.375rem;
+  font-size: 0.875rem;
+  border-color: grey;
+  opacity: 0.5;
+}
+
+input: focus {
+  opacity: 1;
+}
+
+.bookdemobtn {
+  margin-top: 1.5rem;
+  font-size: 0.875rem;
+  border-radius: 0.375rem;
+}
+
+.longtext {
+  font-size: 1.15rem;
+}
+
+.card {
+  background-color: #f4f7fa;
+  margin: 1.5rem;
+  min-height: 15rem;
+  border-radius: 1rem;
+  border-shaddow: 0.5;
+  border-color: transparent;
+}
+
+.cardsection {
+  margin-top: 3rem;
+  margin-left: 1.375rem;
+}
+
+.card > h1 {
+  color: #8ee5d1;
+  padding-top: 1.375rem;
+  font-size: 2.5rem;
+  font-weight: 900;
+  margin-left: 1.375rem;
+}
+
+.card > h3 {
+  font-size: 1.875rem;
+  margin-left: 1.375rem;
+}
+
+.card > p {
+  margin-left: 1.375rem;
+  margin-right: 0.875rem;
+  font-size: 1rem;
+}
+
+.footer {
+  width: 100%;
+  background-color: #f4f7fa;
+  margin-top: 5rem;
+}
+
+.footer > h1 {
+  padding-top: 3rem;
+  padding-left: 1.375rem;
+  font-size: 2.5rem;
+}
+
+.footer > p {
+  font-size: 0.875rem;
+  padding-left: 1.375rem;
+}
+
+.contactemail {
+  color: black;
+  font-weight: bolder;
+}
+
+@media screen and (min-width: 640px) {
+  .desktoplinks {
+    display: block;
+    margin-right: 5rem;
+    font-size: 3rem;
+  }
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  .brandname {
+    margin-left: 2rem;
+    font-weight: bold;
+    font-size: 5rem;
+  }
+
+  .links {
+    font-size: 3rem;
+    color: #3c3c3c;
+    margin-right: 2rem;
+    opacity: 0.75;
+  }
+
+  .login {
+    margin-right: 2rem;
+  }
+
+  button {
+    background-color: #8ee5d1;
+    border-radius: 5rem;
+    color: #3c3c3c;
+    font-weight: bold;
+    border-color: transparent;
+    padding: 2rem;
+  }
+  .signupbtn {
+    font-size: 3rem;
+  }
+
+  .section {
+    margin-top: 3rem;
+    text-align: center;
+    margin-left: 2rem;
+  }
+
+  h2 {
+    font-size: 6rem;
+  }
+
+  p {
+    font-size: 0.875rem;
+    color: #3c3c3c;
+    opacity: 0.75;
+  }
+
+  .getstartedbtn {
+    font-size: 3rem;
+  }
+
+  img {
+    margin-top: 2.5rem;
+  }
+
+  .sectiongrey {
+    background-color: #f4f7fa;
+    margin-top: 3.5rem;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    margin: 0 1rem;
+  }
+
+  input {
+    padding: 1.15rem;
+    border-radius: 1.375rem;
+    font-size: 2rem;
+    border-color: grey;
+    opacity: 0.5;
+  }
+
+  input: focus {
+    opacity: 1;
+  }
+
+  .bookdemobtn {
+    margin-top: 1.5rem;
+    font-size: 2rem;
+    border-radius: 1.375rem;
+  }
+
+  .longtext {
+    font-size: 2rem;
+  }
+
+  .card {
+    background-color: #f4f7fa;
+    margin: 2rem;
+    min-height: 20rem;
+    border-radius: 5rem;
+    border-shaddow: 0.5;
+    border-color: transparent;
+  }
+
+  .cardsection {
+    margin-top: 3rem;
+    margin-left: 2rem;
+  }
+
+  .card > .desktop > h1 {
+    color: #8ee5d1;
+    padding-top: 20rem;
+    font-size: 5rem;
+    font-weight: 900;
+    margin-left: 3rem;
+  }
+
+  .card > .desktop > h3 {
+    font-size: 3rem;
+    margin-left: 3rem;
+  }
+
+  .card > .desktop > p {
+    margin-left: 3rem;
+    font-size: 2rem;
+  }
+
+  .footer {
+    background-color: #f4f7fa;
+    margin-top: 5rem;
+  }
+
+  .footer > .desktop > h1 {
+    padding-top: 3rem;
+    padding-left: 3rem;
+    font-size: 0.5rem;
+  }
+
+  .footer > .desktop > p {
+    font-size: 0rem;
+    padding-left: 3rem;
+  }
+
+  .contactemail {
+    color: black;
+    font-weight: bolder;
+  }
+
+  .desktop {
+    display: flex;
+    justify-content: space-between;
+  }
+}
