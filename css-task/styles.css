@@ -70,8 +70,8 @@ div{
 img {
     float: right;
     padding-right: 15px;
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
   }
 
   .clearfix::after {
@@ -94,9 +94,6 @@ img {
     width: 50%;
 
     
-}
-input["text"]{
-    padding: 20%;
 }
 
 button{
@@ -209,7 +206,7 @@ button{
 
     }
 
-    input["text"],
+    input[type ="text"],
     #demo{
         max-width: 100px;
     }
