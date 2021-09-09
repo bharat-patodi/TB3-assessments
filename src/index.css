@@ -1,0 +1,36 @@
+body,html{
+    margin:0;
+    padding: 0;
+    font-family: 'Helvetica';
+}
+ul li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color:black;
+
+}
+.nav-bar{
+    display:flex;
+    justify-content: space-between;
+
+}
+.nav-item-1 ul,.nav-item-2 ul{
+    display: flex;
+    justify-content: space-evenly;
+   
+    
+}
+.nav-item-1 ul li ,.nav-item-2 ul li{
+    padding: 5px;
+}
+
+.nav-item{
+
+}
+#sign-up{
+    background-color: #8EE5D1;
+    border-radius: 20%;
+    padding: ;
+}
