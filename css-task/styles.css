@@ -1,6 +1,8 @@
 body{
     font-family: Helvetica, sans-serif;
 }
+
+/* for navbar*/
 .nav{
     margin-top: 50px;
     display: flex;
@@ -45,6 +47,8 @@ div{
     margin: 100px;
 }
 
+
+
 /* for intro part */
 
 #intro{
@@ -53,6 +57,7 @@ div{
     display:flex;
     justify-content: space-evenly;
     padding: 15px;
+    flex-wrap: wrap;
 }
 #getstarted{
     width: 100px;
@@ -79,12 +84,19 @@ img {
 /*for book a demo div*/
 
 .form{
+
     margin: auto;
     padding: 50px;
+    display: flex;
+    justify-content: center;
     text-align: center;
     background-color: #F4F7FA;
     width: 50%;
+
     
+}
+input["text"]{
+    padding: 20%;
 }
 
 button{
@@ -131,8 +143,85 @@ button{
 
   footer{
       display: flex;
+      max-height: 250px;
+      background-color: #F4F7FA;
+      justify-content: space-between;
   }
 
   .footercol{
+    display:flex;
+    flex-direction: column;
+    
+     
+  }
+  .rightalign{
+      text-align: right;
+  }
 
+
+
+
+  /* for mobile view */
+
+  @media screen and (max-width: 630px) {
+
+    .hideinnav{
+        display:none;
+    }
+    div{
+        margin:0;
+        padding: 10px;
+    }
+
+
+    .brandname{
+        font-weight: bold;
+        font-size: 2rem;
+        margin-left: 5px;
+    }
+    #signup, #login{
+        font-size: 1rem;
+    
+    }
+    button{
+        margin:auto;
+    }
+
+    footer{
+        flex-direction: column;
+        width: auto;
+    }
+    .rightalign{
+        text-align:left;
+    }
+    section{
+        flex-direction: column;
+    }
+    form{
+        width: 100px;
+    }
+
+    #intro{
+
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+
+    }
+
+    input["text"],
+    #demo{
+        max-width: 100px;
+    }
+    
+    #getstarted{
+        width: 40%;
+        margin: auto;
+    }
+    img{
+        margin:auto;
+    }
+    .introcolumn{
+        margin:auto;
+    }
   }
