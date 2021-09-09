@@ -1,0 +1,101 @@
+body{
+    font-family: Helvetica, sans-serif;
+}
+.nav{
+    
+    display: flex;
+    margin: 30px;
+    padding: 10px;
+    text-align: center;
+
+
+}
+
+a{
+    text-decoration: none;
+    color: #3C3C3C;
+    padding: 10px;
+    margin-left: 20px;
+    width: 100px;
+
+
+}
+.brandname{
+    color: #000000;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-left: 20px;
+}
+#signup{
+    background-color: #8EE5D1;
+    border-radius: 40%;
+
+}
+#signup, #login{
+    float: right;
+
+}
+
+img {
+    float: right;
+    padding-right: 15px;
+    width: 150px;
+  }
+  div {
+    padding: 15px;
+    
+  }
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+
+
+/*for book a demo div*/
+
+.form{
+    margin: 100px;
+    text-align: center;
+    background-color: #F4F7FA;
+    width: 50%;
+}
+
+button{
+    border-radius: 5px;
+    border: none;
+    background-color: #8EE5D1;
+}
+
+
+
+
+
+
+
+  /* for the section part */
+
+  section {
+    display: flex;
+
+  }
+  .sectionclass{
+      margin: 100px;
+
+  }
+  
+  .col {
+
+    margin: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #F4F7FA;
+    justify-content: space-between;
+  }
+  .sectioncenter {
+      text-align: center;
+  }
+
+  .sectionnumber {
+      color:#8EE5D1;
+  }
