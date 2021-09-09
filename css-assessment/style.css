@@ -1,0 +1,226 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:  Helvetica , Roboto;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    margin: 15px ;
+    letter-spacing: 1px;
+}
+nav> h2 {
+    
+    display: inline-block;
+    margin-left: 20px ;
+}
+
+.nav_content{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px ;
+    letter-spacing: 1px;
+}
+.nav_list{
+    display: flex;
+    list-style-type: none;
+    margin-left: 10px;
+    visibility: hidden;  
+}
+.nav_list li{
+    margin-left: 10px ;
+}
+
+.login {
+   margin-right: 20px;
+}
+
+.login a{
+    margin-right: 10px;
+    text-decoration: none;
+    color: #3C3C3C;
+}
+
+.login #signup{
+    border: 1px solid #8EE5D1;
+    background-color: #8EE5D1;
+    padding: 8px 12px;
+    border-radius: 20px;
+}
+
+.main{
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 30px;   
+
+}
+.main p{
+ color:  #3C3C3C;
+ margin: 10px 0px 25px;
+}
+.main img {
+  width: 100%;
+  padding: 30px;
+}
+
+.main a{
+    border: 1px solid #8EE5D1;
+    background-color: #8EE5D1;
+    padding: 8px 12px;
+    color: #3C3C3C;
+    border-radius: 20px;
+}
+
+.form {
+    background-color: #F4F7FA;
+    padding: 20px;
+    text-align: center;
+    
+
+}
+form input{
+    display: block;
+    margin: auto
+}
+
+
+input[type="email"]{
+  border: 1px solid lightgray ;
+  color: lightgray;
+  padding: 8px 12px;
+  border-radius: 5px;
+  width: 33%;
+}
+
+input[type="submit"]
+{   border: 1px solid #8EE5D1;
+    background-color: #8EE5D1;
+    padding: 8px 12px;
+    color: #3C3C3C;
+    border-radius: 5px;
+    width: 33%;
+    margin-top: 10px;
+
+}
+.choose{
+    margin-top: 30px;
+    padding: 30px 40px;
+    text-align: center;
+    
+}
+.choose p{
+    color:  #3C3C3C;
+    margin: 10px 0px 15px;
+    text-align: center;
+}
+
+.adv_list{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  width: 90%;
+ 
+}
+
+.adv{
+    background-color: #F4F7FA;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.adv h1{
+color: #8EE5D1;
+margin-bottom: 10px;
+}
+.adv p{
+    margin-top: 10px;
+    color:  #3C3C3C;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #F4F7FA ;
+    margin-top: 60px;
+    text-align: left;
+}
+.about,.contact{
+    margin-top: 20px;
+    width: 70%;
+}
+.about p,.contact p{
+    margin-top: 10px;
+    color:  #3C3C3C;
+}
+.contact span{
+    font-weight: bold;
+}
+@media screen and (min-width : 640px)
+{
+
+    .nav_list{
+        visibility: visible;
+    }
+
+
+.main{
+    
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    align-items: center;
+    margin-left: 50px;
+    
+
+}
+ .choose{
+     width: 80%;
+     margin: auto;
+ }
+.main img{
+    width: 50%;
+}
+.adv_list{
+    display: flex;
+    flex-direction: row;
+    justify-content:  space-evenly;
+    margin: auto;
+    width: 80%;
+   
+  }
+  .adv{
+      margin-top: 30px 40px 0px;
+      width: 30%;
+  }
+
+  footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+ .contact {
+     text-align: right;
+ }
+  
+ form input{
+     display: inline;
+ }
+ input[type="submit"]
+ {
+     width: 12%;
+     padding: 10px ;
+ }
+
+}
