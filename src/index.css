@@ -1,36 +1,115 @@
-body,html{
-    margin:0;
-    padding: 0;
-    font-family: 'Helvetica';
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-ul li{
-    list-style-type: none;
-}
-a{
-    text-decoration: none;
-    color:black;
 
+
+a {
+  text-decoration: none;
+  color: black;
 }
-.nav-bar{
-    display:flex;
+li {
+  list-style-type: none;
+}
+
+.nav-bar {
+  /* background-color: blueviolet; */
+  display: flex;
+  justify-content: space-between;
+}
+.nav-item-1 ul,
+.nav-item-2 ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+.nav-item-1,
+.nav-item-2 {
+  margin: 10px;
+  padding: 2px;
+}
+.nav-item-1 li,
+.nav-item-2 li {
+  margin: 8px;
+  padding: 3px;
+}
+
+.button {
+  background-color: #8ee5d1;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+}
+#title {
+  font-size: 20px;
+  font-weight: bolder;
+  line-height: 1em;
+}
+.first-block {
+  display: flex;
+  /* margin: 5%; */
+}
+.intro {
+  width: 60%;
+}
+img {
+  height: 300px;
+}
+
+#search {
+  background-color: #f4f7fa;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: 7%;
+}
+#search input {
+  border-radius: 5%;
+  width: 20%;
+  margin-right: 9px;
+  border-color: #f4f7fa;
+}
+.why-choose {
+  margin-top: 8%;
+}
+.why-choose p,
+h1 {
+  /* margin-left: 30%; */
+  /* margin-right: 30%; */
+  text-align: center;
+}
+.card {
+  background-color: #f4f7fa;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 15%;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  margin: 5%;
+}
+.card p{
+    color:black;
+    opacity: .8;
+}
+footer{
+    background-color:#f4f7fa ;
+    display: flex;
     justify-content: space-between;
 
 }
-.nav-item-1 ul,.nav-item-2 ul{
-    display: flex;
-    justify-content: space-evenly;
-   
+#about{
+    width:40%
+}
+.container{
+    margin:20px
+}
+
+@media screen and (max-width:630px){
     
-}
-.nav-item-1 ul li ,.nav-item-2 ul li{
-    padding: 5px;
-}
-
-.nav-item{
-
-}
-#sign-up{
-    background-color: #8EE5D1;
-    border-radius: 20%;
-    padding: ;
 }
