@@ -160,7 +160,7 @@ button{
 
   /* for mobile view */
 
-  @media screen and (max-width: 630px) {
+  @media screen and (max-width: 640px) {
 
     .hideinnav{
         display:none;
