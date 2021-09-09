@@ -5,7 +5,6 @@ html {
   box-sizing: border-box;
 }
 
-
 a {
   text-decoration: none;
   color: black;
@@ -15,9 +14,13 @@ li {
 }
 
 .nav-bar {
+    width: 100%;
   /* background-color: blueviolet; */
+  /* width: 70%; */
   display: flex;
-  justify-content: space-between;
+  /* margin-left: 160px; */
+  /* justify-content: space-between; */
+  margin-bottom: 30px;
 }
 .nav-item-1 ul,
 .nav-item-2 ul {
@@ -34,6 +37,10 @@ li {
   margin: 8px;
   padding: 3px;
 }
+.nav-item-2 {
+  position: absolute;
+  right: 21%;
+}
 
 .button {
   background-color: #8ee5d1;
@@ -49,10 +56,14 @@ li {
 }
 .first-block {
   display: flex;
+  justify-content: center;
   /* margin: 5%; */
 }
 .intro {
-  width: 60%;
+  /* width: 60%; */
+  margin-left: 0;
+  text-align: left;
+  padding: 10px;
 }
 img {
   height: 300px;
@@ -93,23 +104,72 @@ h1 {
   justify-content: center;
   margin: 5%;
 }
-.card p{
-    color:black;
-    opacity: .8;
+.card p {
+  color: black;
+  opacity: 0.8;
 }
-footer{
-    background-color:#f4f7fa ;
-    display: flex;
-    justify-content: space-between;
+footer {
+  background-color: #f4f7fa;
+  display: flex;
+  justify-content: space-between;
+}
+#about {
+  width: 40%;
+  margin-left: 10px;
+}
+.container {
+  margin:0 10%;
+}
+.card h1 {
+  text-align: left;
+  color: #8ee5d1;
+}
 
-}
-#about{
-    width:40%
-}
-.container{
-    margin:20px
-}
+@media screen and (max-width: 530px) {
+  .first-block {
+    flex-direction: column;
+    /* background-color: brown; */
+    justify-content: center;
+  }
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card {
+    width: 80%;
 
-@media screen and (max-width:630px){
-    
+  }
+  footer {
+    flex-direction: column;
+    align-items: left;
+  }
+  #search {
+    flex-direction: column;
+    padding: 20px;
+  }
+  #search input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .intro{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+  .container{
+      margin: 0;
+  }
+  #feature{
+      display: none;
+  }
+  #price{
+      display: none;
+  }
+  #about{
+      width: 100%;
+  }
+  #contact{
+      width: 100%;
+      margin-left: 10px;
+  }
 }
