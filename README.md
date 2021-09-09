@@ -9,6 +9,14 @@ The HTML DOM assessment details will be added on Monday, 13th September 2021.
 - Clone this repository
 - Create a new private repository on your GitHub with the title **TB3-assessments**
 - Copy the `css-assessments` folder from this repository and push them to the **TB3-assessments** private repository on your GitHub account
-- In your private repo, add a collaborator from the assessments team.
+- In your private repo, add a collaborator from the assessments team.  
+
+    | First letter of Name  | Collaborator  |
+    |---|---|
+    |A - M   | Shruti  |
+    |N - Z   |  Vivek |
 - All the details of each assessment will be added as a separate folder in this repository
 - There will be a `requirements.md` file in each assessment folder. It will explain in detail what you need to complete for each assessment.
+
+
+
